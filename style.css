@@ -1,0 +1,27 @@
+body {
+  background: blue;
+}
+.postcard {
+  background: blueviolet;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 17px;
+}
+.left-side {
+  float: left;
+  width: 50%;
+}
+.right-side {
+  float: right;
+  width:50%;
+  
+}
+.right-side input{
+    display: block;
+    
+}
